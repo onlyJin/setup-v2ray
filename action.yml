@@ -28,3 +28,6 @@ runs:
     - name: start v2ray
       shell: bash
       run: .v2ray/v2ray --config=.v2ray/config.json &
+      - name: Setup v2ray
+  uses: wangsijie/setup-v2ray@v1
+
